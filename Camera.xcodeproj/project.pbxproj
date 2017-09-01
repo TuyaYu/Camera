@@ -402,8 +402,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = Camera/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yuzeyu.Camera;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -413,8 +415,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = Camera/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yuzeyu.Camera;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -485,6 +489,7 @@
 				5BC99F7D1CC7466100A0F6ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5BC99F7E1CC7466100A0F6ED /* Build configuration list for PBXNativeTarget "CameraTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +498,7 @@
 				5BC99F801CC7466100A0F6ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5BC99F811CC7466100A0F6ED /* Build configuration list for PBXNativeTarget "CameraUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +507,7 @@
 				5BC99F831CC7466100A0F6ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
